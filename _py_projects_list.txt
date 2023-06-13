@@ -1,0 +1,36 @@
+Top 10 Python Projects for Beginners
+
+1. Email Slicer
+2. Number to Words
+3. Google Image downloader
+4. Contact List
+5. Monty Hall Simulation Problem
+6. Image to Sound
+7. Snake Game
+8. GIF Creator
+9. Website Blocker
+10. Binary Search Algorithm
+11. Dice Rolling Simulator
+
+Top 12 Python Project Ideas for Intermediate
+
+1. Image to Story
+2. Number Guessing
+3. Fibonacci Generator
+4. Voice Assistant
+5. Password Generator
+6. Reddit Bot
+7. Black Jack
+8. Recursive Triangle
+9. Queue
+10. Rock Paper Scissors Game
+11. Currency Converter
+12. Quiz Application
+
+Top 5 Python Project Ideas for Advanced Users
+
+1. Content Aggregator
+2. Building Chatbot
+3. Face Mask Detection
+4. Plagiarism Checker
+5. Music Player
