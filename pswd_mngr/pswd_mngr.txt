@@ -1,5 +1,2 @@
-rabi|1234
-duck|dudkfhd
-luck|lucker
-mmm|fhdwhf
-hello|world
+duck|gAAAAABkrNN9W_Y72_0BT-3uz2kmh5eGI-tvd8jUFwMutc4f4ABVNINdvz0hEzuN67Yu1o7fXvGDmbEfbWuQD31Fqov-mjzT9w==
+hello|gAAAAABkrNQE-jP3Hs5Og4KbjcnZ6VbfTqYwF0zTu0T2RazPTAlw12gidoRNL-zpTlkFy8gMmYVXxlj-_A_DxX_65knWFpVHuA==
