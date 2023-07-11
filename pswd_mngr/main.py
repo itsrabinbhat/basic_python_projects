@@ -1,4 +1,8 @@
+import base64
+import os
 from cryptography.fernet import Fernet
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 # def key_gen():
 #     key = Fernet.generate_key()
 #     with open("key.key",'wb') as f:
@@ -7,14 +11,22 @@ from cryptography.fernet import Fernet
 # key_gen()
 
 #Get key from key file
-with open("key.key", "rb") as file:
-    key = file.read().decode()
-x = Fernet(key)
+# with open("key.key", "rb") as file:
+#     key = file.read().decode()
+# x = Fernet(key)
 #Welcome msg
 print("----------------Welcome to the Password Manager!----------------")
 #get master password
-# master_pswd = input("Enter master password: ").strip()
-
+master_pswd = input("Enter master password: ").strip()
+salt = b'\xfe\xa8Q\xea>0\x91\x82:>-8<u-\xf6'
+kdf = PBKDF2HMAC(
+    algorithm=hashes.SHA256(),
+    length=32,
+    salt=salt,
+    iterations=480000,
+)
+key = base64.urlsafe_b64encode(kdf.derive(master_pswd.encode()))
+x = Fernet(key)
 def add():
     user_name, pswd = input("Enter username and password separated by comma(,): ").split(",")
     #appending data to file
